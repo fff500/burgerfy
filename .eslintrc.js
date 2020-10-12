@@ -37,6 +37,7 @@ module.exports = {
     ]
   },
   rules: {
-    "space-in-parens": ["error", "always"]
+    "object-curly-spacing": ["error", "always"],
+    "react/prop-types": [2, { ignore: ['children'] }]
   }
 }
